@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<General-info>
+    <Driver-name>RPI</Driver-name>
+    <Toolchain>Linux GCC</Toolchain>
+    <Architecture>x86</Architecture>
+    <hostMachineKernel>true</hostMachineKernel>
+    <Kernel-Version>/usr/src/linux-headers-4.2.0-35-generic</Kernel-Version>
+    <Licence>GPL</Licence>
+    <Author-name>WANG XIANGWEI</Author-name>
+    <location>/home/spanfish/work</location>
+    <wizardType>false</wizardType>
+    <wizardTypeInfo>false</wizardTypeInfo>
+</General-info>
