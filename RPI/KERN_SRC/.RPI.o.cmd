@@ -498,6 +498,8 @@ deps_/home/spanfish/work/RPI2_GPIO/RPI/KERN_SRC/RPI.o := \
   include/linux/cdev.h \
   include/linux/delay.h \
   arch/arm/include/asm/delay.h \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/proc/fs.h) \
   include/linux/device.h \
     $(wildcard include/config/debug/devres.h) \
     $(wildcard include/config/pinctrl.h) \
@@ -585,7 +587,6 @@ deps_/home/spanfish/work/RPI2_GPIO/RPI/KERN_SRC/RPI.o := \
     $(wildcard include/config/have/unstable/sched/clock.h) \
     $(wildcard include/config/irq/time/accounting.h) \
     $(wildcard include/config/no/hz/full.h) \
-    $(wildcard include/config/proc/fs.h) \
     $(wildcard include/config/stack/growsup.h) \
   include/uapi/linux/sched.h \
   include/linux/sched/prio.h \
